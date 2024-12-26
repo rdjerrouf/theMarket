@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475320491341",
+    "project_id": "dlala-3bf46",
+    "storage_bucket": "dlala-3bf46.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475320491341:android:e08890304ec1b339c4ab04",
+        "android_client_info": {
+          "package_name": "com.Ryad_Djerrouf.theMarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBywqtPirPBLxHZobtJY2hNGKr73SLJ0lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

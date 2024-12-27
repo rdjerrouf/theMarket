@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "name": "Debug Android",
+        "request": "launch",
+        "type": "reactnative",
+        "cwd": "${workspaceFolder}",
+        "platform": "android",
+        "packageName": "com.Ryad_Djerrouf.theMarket",
+        "sourceMaps": true,
+        "enableDebug": true,
+        "port": 8081,
+        "androidProject": "${workspaceFolder}/android",
+        "appFolder": "app"
+    },
+    {
+        "name": "Attach to Packager",
+        "request": "attach",
+        "type": "reactnative",
+        "cwd": "${workspaceFolder}",
+        "port": 8081
+    }
+]
+}

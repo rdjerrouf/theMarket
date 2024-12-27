@@ -8,7 +8,11 @@ import ForgotPasswordScreen from './src/screens/ForgotPasswordScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import AddListingScreen from './src/screens/AddListingScreen';
 import ListingDetailsScreen from './src/screens/ListingDetailsScreen';
+import { GoogleSignin } from '@react-native-google-signin/google-signin';
 
+GoogleSignin.configure({
+  webClientId: '475320491341-694lr4r7lbqafssjd59l4lsaikbcvqre.apps.googleusercontent.com'
+});
 const Stack = createStackNavigator();
 
 const App: React.FC = () => {
